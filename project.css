@@ -1,0 +1,225 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    padding:0;
+    text-decoration: none;
+    margin:0;
+
+}
+
+
+.topmenu{
+    display: flex;
+    position: relative;
+}
+
+.topmenu .sidenavbar{
+
+    background-color:rgb(4, 23, 70);
+    width:270px;
+    height:530px;
+    padding: 20px 5px;
+    position: fixed;
+}
+
+.topmenu .sidenavbar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.topmenu .sidenavbar .profile img{
+    display:block;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin:0px auto;
+}
+
+.topmenu .sidenavbar .profile h2{
+    color: aliceblue;
+    margin: 10px 0 3px
+}
+.topmenu .sidenavbar .profile p{
+    color: #f2f2f2;
+    margin: 0px 0 2px;
+}
+
+.topmenu .sidenavbar ul li a{
+    display:block;
+    padding:20px 40px;
+    border-bottom: 2px solid rgb(14, 36, 92);
+    color: aliceblue;
+    font-size: 16px;
+    position:relative;
+    border-radius:10px;
+}
+
+.topmenu .sidenavbar ul li a .icon{
+color:aliceblue;
+width:40px;
+display:inline-block;
+}
+
+.topmenu .sidenavbar ul li a:hover,
+.topmenu .sidenavbar ul li a.active{
+
+    color: rgb(110, 129, 177);
+    background:white;
+
+}
+
+.topmenu .sidenavbar ul li a:hover .icon,
+.topmenu .sidenavbar ul li a.active .icon{
+    color: black;
+}
+
+
+.topmenu .sidenavbar ul li a:hover:before,
+.topmenu .sidenavbar ul li a.active:before{
+    display:inline-block;
+}
+
+.heading1{
+    font-size:x-large;
+    font-weight: bolder;
+    margin-left: 300px;
+    color:rgb(14, 36, 92);
+}
+
+
+body{
+   
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: aliceblue;
+}
+
+.container{
+    width:60%;
+    height:400px;
+    background: rgb(4, 23, 70);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-left: 370px;
+    margin-top: 50px;
+}
+
+.container h1{
+    text-align:center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.container .skill{
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    color:aliceblue;
+}
+
+.container .skill h3{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.container .skill h4{
+    float: right;
+}
+
+.container .skill .skill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-radius: 15px;
+    background: #f5fdff;
+}
+
+.container .skill .fill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    background: #adcfe6;
+}
+
+.container .skill .html{
+    animation: html 3s;
+    width: 85%;
+}
+
+.container .skill .css{
+    animation: css 3s;
+    width: 85%;
+}
+
+.container .skill .javascript{
+    animation: javascript 3s;
+    width: 60%;
+}
+
+.container .skill .Cpp{
+    animation: Cpp 3s;
+    width: 75%;
+}
+
+.container .skill .react{
+    animation: react 3s;
+    width: 10%;
+}
+
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 60%;
+    }
+}
+
+@keyframes Cpp{
+    from{
+        width: 0;
+    }
+    to{
+        width: 75%;
+    }
+}
+
+@keyframes react{
+    from{
+        width: 0;
+    }
+    to{
+        width: 10%;
+    }
+}
+
+.topmenu .sidenavbar .profile a{
+    color: aliceblue;
+
+  }

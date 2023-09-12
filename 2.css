@@ -1,0 +1,139 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    padding:0;
+    text-decoration: none;
+    margin:0;
+
+}
+
+body{
+  
+    background-color:white;
+}
+
+.topmenu{
+    display: flex;
+    position: relative;
+}
+
+.topmenu .sidenavbar{
+
+    background-color:rgb(4, 23, 70);
+    width:270px;
+    height:530px;
+    padding: 20px 5px;
+    position: fixed;
+}
+
+.topmenu .sidenavbar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.topmenu .sidenavbar .profile img{
+    display:block;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin:0px auto;
+}
+
+.topmenu .sidenavbar .profile h2{
+    color: aliceblue;
+    margin: 10px 0 3px
+}
+.topmenu .sidenavbar .profile p{
+    color: #f2f2f2;
+    margin: 0px 0 2px;
+}
+
+.topmenu .sidenavbar ul li a{
+    display:block;
+    padding:20px 40px;
+    border-bottom: 2px solid rgb(14, 36, 92);
+    color: aliceblue;
+    font-size: 16px;
+    position:relative;
+    border-radius:10px;
+}
+
+.topmenu .sidenavbar ul li a .icon{
+color:aliceblue;
+width:40px;
+display:inline-block;
+}
+
+.topmenu .sidenavbar ul li a:hover,
+.topmenu .sidenavbar ul li a.active{
+
+    color: rgb(110, 129, 177);
+    background:white;
+
+}
+
+.topmenu .sidenavbar ul li a:hover .icon,
+.topmenu .sidenavbar ul li a.active .icon{
+    color: black;
+}
+
+
+.topmenu .sidenavbar ul li a:hover:before,
+.topmenu .sidenavbar ul li a.active:before{
+    display:inline-block;
+}
+
+.row{
+    display:flex;
+}
+
+.right img{
+    width: 290px;
+    height:290px;
+    border-radius: 50%;
+    border: 10px solid rgb(15, 41, 107) ;
+    margin-top: 90px;   
+    margin-left: 200px;
+}
+
+.left button{
+    background-color:rgb(67, 93, 160); ;
+    border:none;
+    border-radius: 20px;
+    padding:15px;
+    color: aliceblue;
+    display: inline-block;
+    font-size:14px;
+}
+
+
+  .left {
+    width: 75%;
+    color:midnightblue;
+    font-size:40px;
+    margin-left:320px;
+    margin-top: 140px;
+    line-height: 60px;
+    font-weight: 900;
+  }
+  
+  .right {
+    width: 25%;
+  }
+
+.left .info{
+    font-size: 20px;
+  }
+
+ .topmenu .sidenavbar .profile a{
+    color: aliceblue;
+
+  }
+  .row .left .about a{
+    color: aliceblue;
+
+  }
+.left .socials a{
+    color:rgb(14, 36, 92);
+}
+

@@ -1,0 +1,125 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    padding:0;
+    text-decoration: none;
+    margin:0;
+
+}
+
+body{
+  
+    background-color:white;
+}
+
+.left {
+    color:midnightblue;
+    font-size:60px;
+    position:absolute;
+    margin-top:63vh;;
+    right:10px;
+
+  }
+
+  .left a{
+    color: midnightblue;
+  }
+
+.content h2{
+    font-size:30px;
+    font-weight: bolder;
+    color: rgb(5, 35, 111);
+    margin-top: 20vh;
+    margin-left: 600px;
+}
+
+.content p{
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(5, 33, 105);
+    text-align: center;
+    margin-left:600px;
+
+}
+
+.content img{
+    margin-left:110vh;
+    padding:20px;
+    height: 200px;
+    width:200px;
+}
+
+.contact{
+color:rgb(5, 33, 105);
+}
+
+.topmenu{
+    display: flex;
+    position: relative;
+}
+
+.topmenu .sidenavbar{
+
+    background-color:rgb(4, 23, 70);
+    width:270px;
+    height:530px;
+    padding: 20px 5px;
+    position: fixed;
+}
+
+.topmenu .sidenavbar .profile img{
+    display:block;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin:0px auto;
+}
+
+.topmenu .sidenavbar .profile h2{
+    text-align: center;
+    color: aliceblue;
+    margin: 10px 0 3px
+}
+.topmenu .sidenavbar .profile p{
+    text-align: center;
+    color: #f2f2f2;
+    margin: 0px 0 2px;
+}
+.topmenu .sidenavbar .profile a{
+    color: #f2f2f2;
+}
+
+.topmenu .sidenavbar ul li a{
+    display:block;
+    padding:20px 40px;
+    border-bottom: 2px solid rgb(14, 36, 92);
+    color: aliceblue;
+    font-size: 16px;
+    position:relative;
+    border-radius:10px;
+}
+
+.topmenu .sidenavbar ul li a .icon{
+color:aliceblue;
+width:40px;
+display:inline-block;
+}
+
+.topmenu .sidenavbar ul li a:hover,
+.topmenu .sidenavbar ul li a.active{
+
+    color: rgb(110, 129, 177);
+    background:white;
+
+}
+
+.topmenu .sidenavbar ul li a:hover .icon,
+.topmenu .sidenavbar ul li a.active .icon{
+    color: black;
+}
+
+
+.topmenu .sidenavbar ul li a:hover:before,
+.topmenu .sidenavbar ul li a.active:before{
+    display:inline-block;
+}
